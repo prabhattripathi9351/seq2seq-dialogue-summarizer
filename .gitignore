@@ -1,0 +1,26 @@
+# Model files (too large)
+*.safetensors
+*.bin
+*.h5
+*.msgpack
+
+# Checkpoints
+checkpoint-*/
+*-checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
